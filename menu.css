@@ -55,4 +55,26 @@ body{
     text-align:center;
     margin-top:80px;
 }
+@media only screen and (max-width:768px) {
+    .grid-container{
+        display:block;
+    }
+    .image{
+        width:280px;
+    }
+    .name{
+        margin-left:90px;
+    }
+    .button{
+        margin-left:90px;
+
+    }
+    .endline{
+        margin-top:350px;
+            
+        
+    }
+
+    
+}
 
