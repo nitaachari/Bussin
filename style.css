@@ -1,0 +1,166 @@
+body{
+    background-color: #FFFF6E;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns:50% 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin:0px;
+}
+.logo{
+    margin-top: 20px;
+    margin-left:20px;
+    width: 150px; 
+    height: 75px;
+}
+.banner{
+    height:auto;
+    width:100%;
+    float:right;
+}
+.links{
+    text-decoration: none;
+    color:black;
+    /* float:right; */
+    height:15px;
+    width:5%;
+    font-size: 20px;
+    text-align: center;
+    padding-left:0px;
+    padding-bottom:20px;
+    padding-top:10px;
+    margin-top:40px;
+
+    
+}
+#signup{
+    background-color: black;
+    color:white;
+    margin-left:20px;
+    margin-right:50px;
+    text-align:center;
+
+}
+.heading1{
+    margin-top: 65px;
+    margin-left:20px;
+
+}
+.heading2{
+    margin-left:20px;
+}
+.findfood{
+    text-decoration:none;
+    color:white;
+    background-color:chocolate;
+    margin-left: 20px;
+}
+.locationinput{
+    width:70%;
+    height:25px;
+    margin-left:20px;
+    margin-top: 40px;
+    margin-right:auto;
+    margin-bottom:auto;
+    padding:10px;
+    font-size:18px !important;
+    font-weight:500px;
+}
+.findfood{
+    padding:10px;
+    cursor:pointer;
+    display:inline-block;
+    line-height:30px;
+}
+#add{
+    
+    margin-left:70px;
+    height:50px;
+    width:13%;
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    
+    text-align:center;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    cursor:pointer;
+    
+    
+    
+}
+.info-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color:coral;
+    font: size 18px;
+    font-weight:500px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top:20px;
+    height:100%;
+}
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+.texthead{
+    text-align: center;
+    color:white;
+}
+.content{
+    text-align:center;
+}
+.footer{
+    display:grid;
+    grid-template-columns:50% 50%;
+
+}
+.about{
+    font-size:18px;
+    text-decoration:none;
+    text-align: center;
+    color:black
+}
+.divtitle{
+    text-align:center;
+    color:red
+
+}
+.endline{
+    text-align:center;
+    
+}
+.alert{
+    margin-left:20px;
+    color:red;
+}
+@media only screen and (max-width:768px){
+    .logo{
+        margin-top: 20px;
+        margin-left:20px;
+        width: 80px; 
+        height: 50px;
+        margin-left:10px;
+    }
+    
+    #add{
+        margin-left:20px;
+        margin-top:25px;
+        height:50px;
+        width:150px;
+    }
+    .banner{
+        display:none;
+        
+    }
+    .info-container{
+        display:block;
+    }
+    
+}
