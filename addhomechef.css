@@ -1,0 +1,107 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.grid-container1{
+    display:grid;
+    grid-template-columns:auto auto auto;
+}
+.logo{
+    margin-top: 20px;
+    margin-left:20px;
+}
+.links{
+    text-decoration: none;
+    color:black;
+    float:right;
+    height:15px;
+    width:10%;
+    font-size: 20px;
+    text-align: center;
+    padding:20px;
+    margin-top:40px;
+    
+}
+#signup{
+    background-color: black;
+    color:white;
+    margin-left:20px;
+    margin-right:50px;
+    text-align:center;
+
+}
+.headline{
+    text-align:center;
+    font-size:40px;;
+    margin-top:40px;
+}
+.button{
+    margin-left:20%;
+    width:180px;
+    height:30px;
+    background-color: lightblue;
+    cursor:pointer;
+
+}
+#helpline{
+    margin-left:250px;
+   
+}
+.contact{
+    text-decoration:none;
+}
+.seconddiv{
+    margin-top:60px;
+    text-align:center;
+
+}
+.item1{
+    margin-left:20px;
+
+}
+
+.item2{
+    text-align:center;
+    
+}
+.item3{
+    text-align:center;
+}
+.middiv{
+    margin-top:40px;
+}
+.midline{
+    text-align:center;
+}
+.header{
+    background-color:lightgray;
+}
+.grid-container2{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-left:20px;
+    background-color:coral;
+}
+.endline{
+    text-align:center;
+    margin-top:40px;
+}
+.img{
+    height:100px;
+    margin-left:50px;
+
+}
+#img2{
+    margin-left:250px;
+}
+@media only screen and(max-width:768px){
+    .grid-container1{
+        display:grid;
+        grid-template-rows:auto auto auto;
+    }
+    .grid-container2{
+
+        display:grid;
+        grid-template-rows: auto auto auto;
+    }
+}

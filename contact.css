@@ -1,0 +1,46 @@
+body{
+    padding:0px;
+    margin:0px;
+
+}
+.contactbox{
+
+    width:400px;
+    height:500px;
+    margin-left: 35%;
+}
+#line{
+    text-align:center
+}
+#subline{
+    text-align:center;
+}
+.text{
+    margin-top:40px;
+    height:30px;
+    width:400px;
+
+
+}
+.button{
+    margin-top:30px;
+    margin-left:45%;
+    background-color: lightblue;
+    cursor:pointer;
+
+}
+.message{
+    margin-top:40px;
+    height:160px;
+    width:400px;
+}
+.logo{
+    width:100%;
+    height:250px;
+    top:-5px;
+
+}
+.endline{
+    text-align:center;
+    margin-top:45px;
+}

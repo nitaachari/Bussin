@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Javascript"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"sstream": "cpp",
+			"regex": "cpp",
+			"vector": "cpp",
+			"new": "cpp"
+		}
+	}
+}

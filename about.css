@@ -1,0 +1,32 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+
+
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left:20px;
+}
+.about{
+    text-align:center;
+}
+.content{
+    line-height: 35px;
+    font-size: 20px;
+    margin-left:25px;
+    text-align:justify;
+}
+.image{
+    width:100%;
+    margin-left: 20px;
+}
+.endline{
+    text-align:center;
+    
+}

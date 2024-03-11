@@ -1,0 +1,62 @@
+body{
+    padding:0 px;
+    margin:0 px;
+}
+.loginbox{
+    margin-top:40px;
+    border-style:solid;
+    width:400px;
+    height:500px;
+    margin-left: 35%;
+
+
+}
+.logo{
+    margin-top: 20px;
+    margin-left:110px;
+    width:150px;
+    height:75px;
+}
+.logintag{
+    margin-left:50px;
+
+}
+.details{
+    margin-top:20px;
+    margin-left:50px;
+    height:25px;
+    width:250px;
+}
+.button1{
+    margin-left:140px;
+    margin-top:20px;
+    height:30px;
+    width:75px;
+    background-color:lightblue;
+    cursor:pointer;
+    
+}
+#passwd{
+    text-decoration: none;
+    text-align: center;
+    color:blue
+
+
+}
+#account{
+    text-align:center;
+
+}
+.button2{
+    margin-left:140px;
+    height:30px;
+    width:75px;
+    cursor:pointer;
+    background-color:lightblue;
+
+
+}
+.endline{
+    text-align:center;
+    margin-top:50px;
+}
